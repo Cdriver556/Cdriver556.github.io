@@ -1,46 +1,89 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>1.2.9 Exercise</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i' type='text/css'
+    media='all' />
+  <link rel="stylesheet" href="https://bootstrapmade.com/demo/assets/css/normalize.css">
+  <link rel="stylesheet" href="https://bootstrapmade.com/demo/assets/css/fontello.css">
+  <link rel="stylesheet" href="https://bootstrapmade.com/demo/assets/css/style.css">
+  <title>Charles Driver</title>
 </head>
 
 <body>
-  <header>
-    <h1>Student Bio</h1>
+  <header id="header">
+
+    <div class="logo">
+     
+    </div>
+    
+    <div class="preview-devices">
+      <ul>
+        <li class="preview-test preview-devices-active" id="preview-test-desktop" title="">
+          <a href="">
+            <i class="icon-desktop"></i>
+          </a>
+        </li>
+        
+        <li class="preview-test" id="preview-test-mobile" title="">
+          <a href="">
+            <i class="icon-mobile"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navigate">
+      <ul>
+        <!--<li class="navigate-like"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2FBootstrapMade&width=63&layout=button&action=like&size=large&show_faces=false&share=false&height=65&appId=163862247017518" width="63" height="28" style="border:none;overflow:hidden;float: left; padding-top: 7px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li> -->
+        <li>
+          <a href="" target="_top" title="">
+            <i class="icon-exit"></i>
+          </a>
+        </li>
+        <li>
+          <a href=""title="">
+            <i class="icon-home"></i>
+          </a>
+        </li>
+        
+        
+      </ul>
+    </div>
+
   </header>
 
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>Your Name</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-
-    </section>
-
-    <section id="contact-info">
-
-      <h2>Contact Info</h2>
-
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-      <div class="alert alert-success" role="alert">portfolio</div>
-    </section>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    ...
+  </div>
+  <div id="preview">
     
   </div>
+ 
+  <script src="https://bootstrapmade.com/demo/assets/js/jquery-3.1.0.min.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-55234356-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
