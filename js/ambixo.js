@@ -1,11 +1,4 @@
-/*-------------------------------------------------------------------------
 
-  Template Name: Ambixo
-  Author: Martina Sepi 
-  Author URL: http://www.martinasepi.it
-  License: GNU GENERAL PUBLIC LICENSE
-  
--------------------------------------------------------------------------*/
 
 $(document).ready(function () {
 
